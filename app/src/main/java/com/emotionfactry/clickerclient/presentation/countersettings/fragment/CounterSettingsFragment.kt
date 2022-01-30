@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.emotionfactry.clickerclient.R
 
 
-class CounterSettingsFragment : Fragment() {
+class CounterSettingsFragment : Fragment(R.layout.fragment_counter_settings) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

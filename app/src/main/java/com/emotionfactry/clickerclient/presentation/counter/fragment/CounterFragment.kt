@@ -10,7 +10,7 @@ import dagger.hilt.android.AndroidEntryPoint
 
 
 @AndroidEntryPoint
-class CounterFragment : Fragment() {
+class CounterFragment : Fragment(R.layout.fragment_counter) {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null

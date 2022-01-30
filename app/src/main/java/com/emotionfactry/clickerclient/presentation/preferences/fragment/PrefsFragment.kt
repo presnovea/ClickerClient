@@ -9,7 +9,7 @@ import com.emotionfactry.clickerclient.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class PrefsFragment : Fragment() {
+class PrefsFragment : Fragment(R.layout.fragment_prefs) {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
