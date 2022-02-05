@@ -3,4 +3,9 @@
 <style name="ClickerMenu" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
     <item name="iconTint">@color/black</item>
 </style>
+
+    <style name="titleStyle" parent="TextAppearance.AppCompat">
+        <item name="fontFamily"></item>
+    </style>
+
 </resources>

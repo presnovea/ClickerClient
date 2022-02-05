@@ -40,6 +40,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentMainBinding.bind(view)
 
+
         setFragmentDetails()
     }
 
@@ -47,6 +48,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
     private fun setFragmentDetails(){
         binding.menuToolbar.setNavigationOnClickListener {
             Toast.makeText(context, "Menu clicked", Toast.LENGTH_LONG).show()
+
         }
 
         binding.menuToolbar.setOnMenuItemClickListener {
@@ -65,9 +67,12 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         MaterialAlertDialogBuilder(requireContext())
             .setTitle(R.string.about_title)
             .setMessage(R.string.about_message)
-            .setPositiveButton(R.string.button_ok) {dialog,
-                                                    which -> dialog.dismiss()}
+            .setPositiveButton(R.string.button_ok) {dialog,which -> dialog.dismiss()}
             .show()
+    }
+
+    private fun setAppEnvironment(){
+        binding.menuToolbar.navigationIcon?.setTint(resources.getColor(R.color.black))
     }
 
     companion object {
