@@ -19,9 +19,9 @@
         <entry key="app/src/main/res/layout/content_layout_main.xml" value="0.5" />
         <entry key="app/src/main/res/layout/fragment_counter.xml" value="0.32708333333333334" />
         <entry key="app/src/main/res/layout/fragment_counter_settings.xml" value="0.32708333333333334" />
-        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.6316440049443758" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.5" />
         <entry key="app/src/main/res/layout/fragment_prefs.xml" value="0.5" />
-        <entry key="app/src/main/res/layout/list_item_clicker.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/list_item_clicker.xml" value="0.6" />
         <entry key="app/src/main/res/menu/app_menu.xml" value="0.5" />
       </map>
     </option>

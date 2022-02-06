@@ -46,6 +46,9 @@ class MainFragment : Fragment(R.layout.fragment_main) {
 
 
     private fun setFragmentDetails(){
+
+        binding
+
         binding.menuToolbar.setNavigationOnClickListener {
             Toast.makeText(context, "Menu clicked", Toast.LENGTH_LONG).show()
 
