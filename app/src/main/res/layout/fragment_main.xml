@@ -34,6 +34,7 @@
 
 
         <include
+            android:id="@+id/content_layout_main"
             layout="@layout/content_layout_main"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

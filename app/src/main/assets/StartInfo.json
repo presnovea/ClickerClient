@@ -1,0 +1,26 @@
+[
+  {
+    "title": "White People",
+    "value": 1520,
+    "group": "default",
+    "canDecrease": true
+  },
+  {
+    "title": "Niggers",
+    "value": 190,
+    "group": "default",
+    "canDecrease": false
+  },
+  {
+    "title": "Gays",
+    "value": 9650,
+    "group": "default",
+    "canDecrease": false
+  },
+  {
+    "title": "Dogs",
+    "value": 19,
+    "group": "",
+    "canDecrease": true
+  }
+]

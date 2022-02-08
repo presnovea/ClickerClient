@@ -8,6 +8,8 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.NavController
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.emotionfactry.clickerclient.R
 import com.emotionfactry.clickerclient.databinding.FragmentMainBinding
 import com.emotionfactry.clickerclient.presentation.main.viewmodel.MainViewModel
@@ -47,7 +49,10 @@ class MainFragment : Fragment(R.layout.fragment_main) {
 
     private fun setFragmentDetails(){
 
-        binding
+        val adapter = ClickerRecyclerAdapter()
+
+        binding.contentLayoutMain.mainRecyclerView.layoutManager = LinearLayoutManager(context, RecyclerView.VERTICAL,false)
+        binding.contentLayoutMain.mainRecyclerView.adapter = adapter
 
         binding.menuToolbar.setNavigationOnClickListener {
             Toast.makeText(context, "Menu clicked", Toast.LENGTH_LONG).show()

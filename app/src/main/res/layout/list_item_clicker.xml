@@ -22,10 +22,11 @@
             android:id="@+id/item_clicker_icon"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:scaleType="fitCenter"
             android:layout_marginTop="6dp"
             android:layout_weight="0.05"
-            app:srcCompat="@drawable/ic_color_square" />
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_sqare_filled"
+            app:tint="#FFCF1C1C" />
 
         <LinearLayout
             android:layout_width="0dp"
