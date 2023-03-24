@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.emotionfactry.testapp"
+    namespace = "com.emotionfactry.clickerclient"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.emotionfactry.testapp"
+        applicationId = "com.emotionfactry.clickerclient"
         minSdk = 26
         targetSdk = 33
         versionCode = 1
