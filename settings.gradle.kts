@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ClickerClient"
 include (":presentation")
+include(":data")
