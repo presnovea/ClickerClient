@@ -1,4 +1,4 @@
-package com.emotionfactry.testapp.ui.theme
+package com.emotionfactry.counterclient.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

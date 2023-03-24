@@ -1,4 +1,4 @@
-package com.emotionfactry.testapp.ui.theme
+package com.emotionfactry.counterclient.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

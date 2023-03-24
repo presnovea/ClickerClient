@@ -1,4 +1,4 @@
-package com.emotionfactry.testapp
+package com.emotionfactry.counterclient
 
 import org.junit.Test
 

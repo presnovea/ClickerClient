@@ -1,4 +1,4 @@
-package com.emotionfactry.testapp
+package com.emotionfactry.counterclient
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,13 +10,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.emotionfactry.testapp.ui.theme.TestAppTheme
+import com.emotionfactry.counterclient.ui.theme.CounterClientTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            TestAppTheme {
+            CounterClientTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -40,7 +40,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    TestAppTheme {
+    CounterClientTheme {
         Greeting("Android")
     }
 }

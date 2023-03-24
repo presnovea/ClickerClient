@@ -1,4 +1,4 @@
-package com.emotionfactry.testapp.ui.theme
+package com.emotionfactry.counterclient.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -38,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun TestAppTheme(
+fun CounterClientTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
