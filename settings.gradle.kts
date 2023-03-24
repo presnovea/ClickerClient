@@ -14,4 +14,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "ClickerClient"
-include (":app")
+include (":presentation")
