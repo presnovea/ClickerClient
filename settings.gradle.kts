@@ -15,5 +15,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ClickerClient"
 //include ':app'
-//include ':bldRsc'
-//include ':model'
