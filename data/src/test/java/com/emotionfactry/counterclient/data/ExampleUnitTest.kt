@@ -1,4 +1,4 @@
-package com.emotionfactry.counterclient.data
+package com.emotionfactry.clickerclient.data
 
 import org.junit.Test
 

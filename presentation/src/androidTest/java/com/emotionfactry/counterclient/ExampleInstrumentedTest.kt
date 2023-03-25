@@ -1,4 +1,4 @@
-package com.emotionfactry.counterclient
+package com.emotionfactry.clickerclient
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.emotionfactry.counterclient", appContext.packageName)
+        assertEquals("com.emotionfactry.clickerclient", appContext.packageName)
     }
 }

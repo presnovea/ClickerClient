@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.emotionfactry.counterclient.data"
+    namespace = "com.emotionfactry.clickerclient.data"
     compileSdk = 33
 
     defaultConfig {
