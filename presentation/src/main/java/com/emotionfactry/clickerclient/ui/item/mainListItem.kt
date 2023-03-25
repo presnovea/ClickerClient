@@ -18,6 +18,7 @@ fun Mock(){
 
 }
 
+@Composable
 private fun ClickerUnitDivider(){
     Divider()
 }
