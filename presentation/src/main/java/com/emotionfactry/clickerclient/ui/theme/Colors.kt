@@ -1,5 +1,7 @@
 package com.emotionfactry.clickerclient.ui.theme
 
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -106,8 +108,10 @@ class AppColors(
     }
 
     //ToDo("realize method for upload to server")
-    override fun toString(): String {}
+    override fun toString(): String {return ""}
 }
+
+
 
 //ToDo("update the colors")
 /**
@@ -148,6 +152,5 @@ fun DarkColorScheme(): AppColors =
         onSurface = Color(244,244,244),
         onError = Color(255,195,199)
     )
-    internal val LocalColors = staticCompositionLocalOf { LightColorScheme() }
 
 
